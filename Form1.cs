@@ -86,7 +86,7 @@ namespace KetNoiSqlLuyenTap
                 }
             }catch(Exception ex)
             {
-                MessageBox.Show("Không thể update");
+                MessageBox.Show("Không thể update" + ex);
                 
             }
         }
