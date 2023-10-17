@@ -172,5 +172,10 @@ namespace KetNoiSqlLuyenTap
                 MessageBox.Show("Vui long chọn mục muốn xóa","Thông báo");
             }
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
